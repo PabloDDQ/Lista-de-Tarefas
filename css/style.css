@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(26, 8, 72);
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(39, 97, 139);
+    border-radius: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #563d91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+li span {
+    flex-grow: 1;
+    margin-left: 10px;
+    max-width: calc(100% - 160px); /* Ajuste para evitar texto longo ultrapassar o botão */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.editButton, .deleteButton {
+    margin-left: 10px;
+}
